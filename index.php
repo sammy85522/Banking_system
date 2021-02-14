@@ -23,7 +23,7 @@
 
                         <a href="https://github.com/sammy85522/Banking_system.git" class="fa fa-github"></a>
                         <a href="https://youtu.be/-4cQkFh2MjE" class="fa fa-youtube"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="https://www.linkedin.com/posts/samarth-birajdar-38aa271a8_grip-thesparksfoundation-gripfeb21-activity-6766747732049752064-LNDY" class="fa fa-linkedin"></a>
           <br> </br>
           <br> </br>
 
