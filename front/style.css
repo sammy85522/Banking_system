@@ -1,0 +1,202 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Times New Roman", Times, serif;
+}
+
+  
+}
+ 
+    ul{
+        float: right ;
+   list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+       display:  inline-block;
+}
+
+ul li a{
+         text-decoration: none;
+         color: #fff;
+         padding :   5px 20px;
+         border:    1px solid  transparent;
+         transition: 0.6s ease; 
+}
+
+ul li a:hover{
+              background-color: #fff;
+              color: #000;
+}
+
+ul li.active a{
+
+             background-color:  #80ced6;
+              color: #000;
+}
+
+ 
+
+.main{
+
+    max-width: 1200px;
+     margin: auto;
+}
+
+.title{
+
+      position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+ .title h1{
+         color: #fff;
+         font-size: 70px;
+}
+
+.button{
+                position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%,-50%);
+transition: 0.6s ease;
+border-radius: 2px;
+transition-duration: 0.4s;
+
+}
+
+
+    .btn{
+         display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 0.7s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.btn:hover{
+                background-color: #3e8e41
+              color: #000;
+              border-radius: 2px;
+              box-shadow: 0 5px #666;
+              transition-duration: 0.2s;            
+               
+
+
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+      transition-duration: 0.7s;
+}
+
+h1 {text-align:center;
+         max-width: 800px;
+  margin: auto;
+           font-size: 30px;
+             color: red;}
+
+h2 {text-align:center;
+         max-width: 500px;
+  margin: auto;
+           font-size: 30px;
+             color: blue;}
+
+h1:hover {
+              background-color: yellow;
+             color: blue;
+             transition-duration: 0.7s;}
+h2:hover {
+              background-color: yellow;
+             color: green;
+             transition-duration: 0.7s;}
+
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+
+}
+
+img { 
+  width: 30%;
+  height: auto;
+  opacity: 0.9;
+}
+
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: top;
+  top: 10px;
+  left: 16px;
+  font-size: 18px;
+}
+h3{
+    text-align:center;
+         max-width: 500px;
+  margin: auto;
+           font-size: 20px;
+             color: black;}
+ 
+h3:hover {
+              background-color: white;
+             color: grey;
+             transition-duration: 0.7s;}
+ body{
+     background-image: url("bank.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+         }
+
+
+.fa {
+   padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.4;
+}
+.fa-github {
+  background: #000000;
+  color: white;
+}
+.fa-youtube {
+   background: #bb0000;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+

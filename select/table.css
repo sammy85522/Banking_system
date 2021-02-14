@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Bradley Hand, cursive;
+}
+
+         
+
+h2{
+	font-size: 30px;
+        background :#272623;
+        color:white;
+        font-family:san serif;
+}
+table{
+	letter-spacing: 1px;
+          border: 1px solid black;
+            background-image: url("selectuser.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+ 
+}
+td{
+	text-align: center;
+         border: 1px solid black;
+}
+button{
+	border:none;
+	background:#006400;
+    transition: 0.5s;
+    color : white;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+
+.w3-button {width:150px;}
+
+
+  

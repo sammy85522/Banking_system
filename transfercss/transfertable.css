@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Bradley Hand, cursive;
+        text-align:center;
+        }
+h2{
+	font-size: 60px;
+        background-color:#FFB6C1;
+        color:white;
+        font-family:san serif;
+}
+table{
+	letter-spacing: 1px;
+          border: 1px solid black;
+        background-image: url("transfer.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+}
+td{
+	text-align: center;
+         border: 1px solid black;
+}
+button{
+	border:none;
+	background-color: #4CAF50;
+    transition: 0.5s;
+    color : green;
+}
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+
+.w3-button {width:150px;}
+
+
+  
